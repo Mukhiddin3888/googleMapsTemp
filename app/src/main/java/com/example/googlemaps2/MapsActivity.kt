@@ -29,10 +29,8 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
     }
 
-
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
-
 
         val latitude = 41.338974833027486
         val longtitude = 69.33511885918323

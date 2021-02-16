@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav1"
+    app:startDestination="@id/bottomFragment">
+
+    <fragment
+        android:id="@+id/bottomFragment"
+        android:name="com.example.googlemaps2.bottomFragment"
+        android:label="fragment_bottom"
+        tools:layout="@layout/fragment_bottom" />
+</navigation>
